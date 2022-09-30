@@ -1,14 +1,16 @@
-module "change" {
-  source = "git::https://github.com/s3d-club/terraform-external-data-changes?ref=0.0.7"
+module "name" {
+  source = "git::https://github.com/s3d-club/terraform-external-data-name-tags?ref=v0.1.0"
 
-  path = path.module
-  tags = var.tags
+  path         = path.module
+  name_prefix  = var.name_prefix
+  name_segment = "igress-open"
+  tags         = var.tags
 }
 
 resource "aws_security_group" "this" {
   description = "Open inbound traffic"
-  name_prefix = "${var.name_prefix}-open-"
-  tags        = module.change.tags
+  name_prefix = module.name.name_prefix
+  tags        = module.name.tags
   vpc_id      = var.vpc
 
   ingress {
