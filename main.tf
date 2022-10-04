@@ -1,5 +1,5 @@
 module "name" {
-  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.1"
+  source = "github.com/s3d-club/terraform-external-name?ref=v0.1.2"
 
   path    = path.module
   context = join("-", [var.name_prefix, "igress-open"])
