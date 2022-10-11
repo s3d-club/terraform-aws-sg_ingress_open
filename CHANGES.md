@@ -1,11 +1,10 @@
 # Changes
 Recently completed and planned work is tracked here.
 
-## [0.0.0](.) to [0.1.1](.)
+## [0.0.0](.) to [0.1.4](.)
 - Completed early versions
 
-## [0.1.3](.)
-- Updated `name` module for better error handling
-
-## [0.1.4](.)
-- Updated `CODE-OF-CONDUCT.md`
+## [0.1.5](.)
+- Updated `README.md`
+- Updated `name` module
+- Updated `terrafrom.lock.hcl`
