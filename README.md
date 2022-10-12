@@ -1,13 +1,13 @@
-# TF AWS SSH Ingress
-Terraform module for SSH Protocol ingress on AWS.
+# AWS Open Ingress
+Terraform module for open ingress on AWS.
 
 ## Other Documents
 Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
 and [CHANGES][chge] documents before working in this project and anytime they
-are update.
+are updated.
 
 ## Overview
-This module is an wrapper around a [aws security group][awss] resource.
+This module is an wrapper around an [aws security group][awss] resource.
 
 We provide the following.
 - A simplified developer experience
