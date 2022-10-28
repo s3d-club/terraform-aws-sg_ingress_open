@@ -10,3 +10,6 @@ Recently completed and planned work is tracked here.
 ## [0.1.11](.)
 - Updated `aws` provider
 - Updated `name` module
+
+## [0.1.12](.)
+- Improved descriptions of variables and outputs
