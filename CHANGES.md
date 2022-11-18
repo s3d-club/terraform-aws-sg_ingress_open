@@ -6,10 +6,7 @@ This file describes the project history as it relates to tagged versions.
 
 ## [0.1.10](.) to [0.1.17](.)
 - Improved descriptions of variables and outputs
-- Updated `aws` provider
-- Updated `name` module
-- Updated `terraform` version
-- Updated `time` provider
+- Updated modules and providers
 
-## [0.1.18](.)
+## [0.1.18](.) to [0.1.19](.)
 - Updated `aws` provider
