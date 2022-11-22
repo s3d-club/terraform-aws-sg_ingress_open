@@ -1,10 +1,9 @@
 # AWS Open Ingress
 Terraform module for open ingress on AWS.
 
-## Other Documents
-Please read our [LICENSE][lice], [CONTRIBUTING][cont], [CODE-OF-CONDUCT][code],
-and [CHANGES][chge] documents before working in this project and anytime they
-are updated.
+## Associated Documents
+Please read our [LICENSE][lice], [CONTRIBUTING][cont], and [CHANGES][chge]
+documents before working in this project and anytime they are updated.
 
 ## Overview
 This module is an wrapper around an [aws security group][awss] resource.
@@ -16,6 +15,5 @@ We provide the following.
 
 [awss]: https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
 [chge]: ./CHANGES.md
-[code]: ./CODE-OF-CONDUCT.md
 [cont]: ./CONTRIBUTING.md
 [lice]: ./LICENSE.md
