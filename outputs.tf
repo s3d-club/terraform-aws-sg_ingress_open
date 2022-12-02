@@ -1,4 +1,7 @@
 output "security_group_id" {
-  description = "The Security Group ID"
-  value       = aws_security_group.this.id
+  value = aws_security_group.this.id
+
+  description = <<-END
+    The Security Group ID.
+    END
 }

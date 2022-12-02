@@ -1,11 +1,39 @@
-variable "cidr_blocks" {
-  default     = ["0.0.0.0/0"]
-  description = "CIDR for Ingress"
-  type        = list(string)
+variable "cidr6s" {
+  type = list(string)
+
+  description = <<-EOT
+    A list of IP6 cidrs.
+    EOT
 }
 
-variable "ipv6_cidr_blocks" {
-  default     = ["::/0"]
-  description = "IP6 CIDR for Ingress"
-  type        = list(string)
+variable "cidrs" {
+  type = list(string)
+
+  description = <<-EOT
+    A list of cidrs.
+    EOT
+}
+
+variable "name_prefix" {
+  type = string
+
+  description = <<-EOT
+    A prefix value for the security group name.
+    EOT
+}
+
+variable "tags" {
+  type = map(string)
+
+  description = <<-EOT
+    The `tags` for resources.
+    EOT
+}
+
+variable "vpc_id" {
+  type = string
+
+  description = <<-EOT
+    A VPC ID.
+    EOT
 }
